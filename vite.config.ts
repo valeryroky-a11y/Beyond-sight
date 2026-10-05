@@ -3,8 +3,12 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
 
-
-
+const siteConfiguration = {
+  title: 'Beyond Sight Certification | T & Y Studio',
+  description: 'Certificación de Pilates inclusivo para coaches. El movimiento va más allá de lo que vemos.',
+  language: 'es',
+  accessibility: { addBypassLinks: true },
+}
 
 // Vite config — https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
